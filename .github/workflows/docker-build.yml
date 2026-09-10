@@ -3,12 +3,10 @@ name: Build & Deploy
 on:
   push:
     branches:
-      - main
-      - master
+      - wzv3
   pull_request:
     branches:
-      - main
-      - master
+      - wzv3
   workflow_dispatch:
 
 env:
